@@ -1,6 +1,6 @@
 <?php
 
-namespace IntoTheSource\LaravelFormBuilder\Facades;
+namespace DALTCORE\LaravelFormBuilder\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

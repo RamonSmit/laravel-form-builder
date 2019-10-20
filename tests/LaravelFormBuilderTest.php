@@ -1,9 +1,9 @@
 <?php
 
-namespace IntoTheSource\LaravelFormBuilder\Tests;
+namespace DALTCORE\LaravelFormBuilder\Tests;
 
-use IntoTheSource\LaravelFormBuilder\Facades\LaravelFormBuilder;
-use IntoTheSource\LaravelFormBuilder\ServiceProvider;
+use DALTCORE\LaravelFormBuilder\Facades\LaravelFormBuilder;
+use DALTCORE\LaravelFormBuilder\ServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class LaravelFormBuilderTest extends TestCase

@@ -1,6 +1,6 @@
 <?php
 
-namespace IntoTheSource\LaravelFormBuilder;
+namespace DALTCORE\LaravelFormBuilder;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

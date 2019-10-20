@@ -1,16 +1,16 @@
 <?php
 
-namespace IntoTheSource\LaravelFormBuilder;
+namespace DALTCORE\LaravelFormBuilder;
 
-use IntoTheSource\LaravelFormBuilder\Support\Builder;
-use IntoTheSource\LaravelFormBuilder\Support\Element;
-use IntoTheSource\LaravelFormBuilder\Support\Form;
-use IntoTheSource\LaravelFormBuilder\Support\Value;
+use DALTCORE\LaravelFormBuilder\Support\Builder;
+use DALTCORE\LaravelFormBuilder\Support\Element;
+use DALTCORE\LaravelFormBuilder\Support\Form;
+use DALTCORE\LaravelFormBuilder\Support\Value;
 
 class LaravelFormBuilder
 {
     /**
-     * @return \IntoTheSource\LaravelFormBuilder\Support\Form
+     * @return \DALTCORE\LaravelFormBuilder\Support\Form
      */
     public function form()
     {
@@ -18,7 +18,7 @@ class LaravelFormBuilder
     }
 
     /**
-     * @return \IntoTheSource\LaravelFormBuilder\Support\Element|null
+     * @return \DALTCORE\LaravelFormBuilder\Support\Element|null
      */
     public function element()
     {
@@ -26,7 +26,7 @@ class LaravelFormBuilder
     }
 
     /**
-     * @return \IntoTheSource\LaravelFormBuilder\Support\Element|null
+     * @return \DALTCORE\LaravelFormBuilder\Support\Element|null
      */
     public function value()
     {
@@ -34,7 +34,7 @@ class LaravelFormBuilder
     }
 
     /**
-     * @return \IntoTheSource\LaravelFormBuilder\Support\Builder
+     * @return \DALTCORE\LaravelFormBuilder\Support\Builder
      */
     public function builder()
     {

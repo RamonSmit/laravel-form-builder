@@ -1,6 +1,6 @@
 <?php
 
-namespace IntoTheSource\LaravelFormBuilder\Models;
+namespace DALTCORE\LaravelFormBuilder\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

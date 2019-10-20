@@ -1,6 +1,6 @@
 <?php
 
-namespace IntoTheSource\LaravelFormBuilder\Validations;
+namespace DALTCORE\LaravelFormBuilder\Validations;
 
 use Illuminate\Foundation\Http\FormRequest;
 

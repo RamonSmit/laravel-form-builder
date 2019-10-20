@@ -7,14 +7,14 @@ Add the following to your composer.json
 {
   "repositories": [{
     "type": "composer",
-    "url": "https://composer.intothesource.com"
+    "url": "https://composer.DALTCORE.com"
   }]
 }
 ```
 
 and install via composer
 ```
-composer require intothesource/laravel-form-builder
+composer require DALTCORE/laravel-form-builder
 ``` 
 
 ### Register Service Provider
@@ -24,14 +24,14 @@ auto discovery feature.
 
 Add service provider to `config/app.php` in `providers` section
 ```php
-IntoTheSource\LaravelFormBuilder\ServiceProvider::class,
+DALTCORE\LaravelFormBuilder\ServiceProvider::class,
 ```
 
 ### Register Facade
 
 Register package facade in `config/app.php` in `aliases` section
 ```php
-'Formbuilder' => IntoTheSource\LaravelFormBuilder\Facades\LaravelFormBuilder::class,
+'Formbuilder' => DALTCORE\LaravelFormBuilder\Facades\LaravelFormBuilder::class,
 ```
 
 ## Usage
@@ -264,10 +264,10 @@ $value = Formbuilder::value()->delete(12);
 This removes only a value
 
 ## Security
-If you discover any security related issues, please email rsmit@intothesource.com
+If you discover any security related issues, please email rsmit@DALTCORE.com
 instead of using the issue tracker.
 
 ## Credits
 
-- [Ramon Smit](https://github.com/intothesource/laravel-form-builder)
-- [All contributors](https://github.com/intothesource/laravel-form-builder/graphs/contributors)
+- [Ramon Smit](https://github.com/DALTCORE/laravel-form-builder)
+- [All contributors](https://github.com/DALTCORE/laravel-form-builder/graphs/contributors)

@@ -1,6 +1,6 @@
 <?php
 
-namespace IntoTheSource\LaravelFormBuilder\Support;
+namespace DALTCORE\LaravelFormBuilder\Support;
 
 class Builder
 {

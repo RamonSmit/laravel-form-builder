@@ -1,5 +1,5 @@
 {
-  "name": "intothesource/laravel-form-builder",
+  "name": "ramonsmit/laravel-form-builder",
   "description": "A laravel form builder",
   "license": "MIT",
   "keywords": [
@@ -10,7 +10,7 @@
   "authors": [
     {
       "name": "Ramon Smit",
-      "email": "rsmit@intothesource.com"
+      "email": "rsmit@daltcore.com"
     }
   ],
   "require": {
@@ -23,12 +23,12 @@
   },
   "autoload": {
     "psr-4": {
-      "IntoTheSource\\LaravelFormBuilder\\": "src"
+      "DALTCORE\\LaravelFormBuilder\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "IntoTheSource\\LaravelFormBuilder\\Tests\\": "tests"
+      "DALTCORE\\LaravelFormBuilder\\Tests\\": "tests"
     },
     "files": [
       "vendor/phpunit/phpunit/src/Framework/Assert/Functions.php"
@@ -40,7 +40,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "IntoTheSource\\LaravelFormBuilder\\ServiceProvider"
+        "DALTCORE\\LaravelFormBuilder\\ServiceProvider"
       ]
     }
   },

@@ -1,6 +1,6 @@
 <?php
 
-namespace IntoTheSource\LaravelFormBuilder\Exceptions;
+namespace DALTCORE\LaravelFormBuilder\Exceptions;
 
 class NullArgumentException extends \Exception
 {
